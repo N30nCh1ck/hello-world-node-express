@@ -5,7 +5,7 @@ require('dotenv').config();
 
 const port = process.env.PORT
 
-app.get('/', (req, res) => {
+app.get('/greetting', (req, res) => {
   res.send({ message: 'Hello World!' })
 })
 
